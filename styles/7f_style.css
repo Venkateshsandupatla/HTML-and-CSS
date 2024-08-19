@@ -1,0 +1,27 @@
+p{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  color: rgb(100, 100, 100);
+  
+}
+.email{
+  margin-bottom: 7px;
+}
+.box{
+  width: 300px;
+  border-color: rgb(100, 100, 100);
+  border-style: solid;
+  border-width: 2px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  margin-top: 0px;
+}
+.agree-button{
+  background-color: rgb(10, 102, 194);
+  width: 312px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border: none;
+  color: white;
+  border-radius: 25px;
+}

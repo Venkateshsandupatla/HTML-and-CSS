@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+  <head>
+      <title>Double Sidebar</title>
+    <style>
+      .flexbox{
+        display: flex;
+
+      }
+      .first-sidebar{
+        position: fixed;
+        background-color: rgb(44, 44, 44);
+        top: 0;
+        left: 0;
+        bottom: 0;
+        width: 60px;
+        padding-left: 10px;
+        padding-top: 15px;
+
+      }
+      .image{
+        height: 50px;
+        width: 50px;
+        object-fit: cover;
+        object-position: center;
+        border-radius: 25px;
+        
+      }
+      .second-sidebar{
+        position: fixed;
+        top: 0;
+        bottom: 0;
+        left: 70px;
+        width: 200px;
+        background-color: rgb(85, 82, 82);
+      }
+      .info{
+        display: flex;
+        justify-content: space-between;
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-top: 10px;
+        align-items: center;
+        
+      }
+      .name{
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        color: white;
+        font-size: 12px;
+
+      }
+      .addition{
+        color: gray;
+        font-size: 20px;
+      }
+      p{
+        font-family: Arial, Helvetica, sans-serif;
+        color: gray;
+        font-size: 14px;
+        padding-left: 10px;
+      } 
+
+    </style>
+  </head>
+  <body style="height: 3000px;">
+    
+    <div class="flexbox">
+      <div class="first-sidebar">
+        <div>
+          <img class="image" src="images/profile-2.jpg" alt="">
+        </div>
+        <div>
+          <img class="image" src="images/profile-3.jpg" alt="">
+        </div>
+       
+        <div>
+          <img class="image" src="images/dog2.jpg" alt="">
+        </div>
+      
+      </div>
+      <div class="second-sidebar">
+        <div class="info">
+          <div class="name">
+            INFO
+          </div>
+          <div class="addition">
+            +
+          </div>
+        </div>
+        
+        <p># new-videos</p>
+        <p># updates</p>
+        <p># faq</p>
+           
+      </div>
+    </div>
+
+  </body>
+</html>

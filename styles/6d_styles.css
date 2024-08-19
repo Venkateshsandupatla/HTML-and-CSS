@@ -1,0 +1,16 @@
+p{
+  font-family: montsterrat;
+}
+.model{
+  text-align: center;
+  font-weight: bold;
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+.Order{
+  text-align: center;
+  margin-top: 0px;
+}
+.touch{
+  text-decoration: underline;
+}

@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Nested flexbox example3</title>
+    <style>
+      div{
+        font-family: Arial, Helvetica, sans-serif;
+      }
+      .container{
+        width: 400px;
+        padding-left: 16px;
+        padding-right: 16px;
+        padding-top: 10px;
+        padding-bottom: 16px;
+        border-width: 2px;
+        border-radius: 3px;
+        box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.3);
+
+      }
+
+      .inbox{
+        
+        color: grey;
+        font-size: 14px;
+        margin-bottom: 20px;
+      }
+
+
+      .flexbox{
+        display: flex;
+        margin-bottom: 15px;
+        
+      }
+      .image{
+        height: 50px;
+        width: 50px;
+        object-fit: cover;
+        border-radius: 25px;
+
+      }
+      .profile-picture{
+      margin-right: 10px;
+      }
+      .info{
+        flex: 1;
+      }
+      .sender{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 5px;
+      }
+      .name{
+        
+        font-weight: bold;
+        font-size: 16px;
+      }
+      .time{
+        
+        color: gray;
+        font-size: 14px;
+      }
+      .subject{
+        
+        font-weight: bold;
+        font-size: 14px;
+        margin-bottom: 5px;
+      }
+      .mail-body{
+        
+        color: gray;
+        font-size: 14px;
+      }
+
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="inbox">
+        ALL INBOXES
+      </div>
+
+      <div class="flexbox">
+        <div class="profile-picture">
+          <img class="image" src="images/image1.jpeg" alt="">
+        </div>
+        <div class="info">
+          <div class="sender">
+            <div class="name">Chewy Promotions</div>
+            <div class="time">4:58pm</div>
+          </div>
+          <div class="subject">
+            Biggest Sales of the year!
+          </div>
+          <div class="mail-body">
+            Hey there! We're writting to tell you about our..
+          </div>
+        
+
+        </div>
+      </div>
+      
+      <div class="flexbox">
+        <div class="profile-picture">
+          <img class="image" src="images/dog2.jpg" alt="">
+        </div>
+        <div class="info">
+          <div class="sender">
+            <div class="name">
+              Best Buy
+            </div>
+            <div class="time"> 12:32 pm</div>
+
+          </div>
+          <div class="subject"> Your Best Buy eReceipt</div>
+          <div class="mail-body"> Thank you for shopping at Best Buy, here is the...</div>
+
+        </div>
+      </div>
+
+      <div class="flexbox">
+        <div class="profile-picture">
+          <img class="image" src="images/profile-2.jpg" alt="">
+        </div>
+        <div class="info">
+          <div class="sender">
+            <div class="name">
+              Netflix
+            </div>
+            <div class="time"> 9:00 Am</div>
+
+          </div>
+          <div class="subject">Here's what's coming soon to Netflix</div>
+          <div class="mail-body">Brand new movies and shows, old favorites...</div>
+    </div>
+
+  </body>
+</html>

@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>
+      facebook-header
+    </title>
+    <style>
+      .header{
+        display: flex;
+        justify-content: space-between;
+        height: 50px;
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        padding-left: 50px;
+        padding-right: 50px;
+        align-items: center;
+        
+      }
+      .profile{
+        display: flex;
+        align-items: center;
+      }
+      .profile-picture{
+        height:50px;
+        width: 50px;
+        margin-right: 10px ;
+      
+        }
+      
+        .image{
+          height: 50px;
+          width: 50px;
+          object-fit: cover;
+          object-position: center;
+          border-radius: 25px;
+        }
+        .Name{
+          font-family: Arial, Helvetica, sans-serif;
+          font-weight: bold;
+          font-size: 16px;
+        }
+
+        .friends{
+          display: flex;
+
+
+        }
+        .add-friends-button{
+          background-color: rgb(57, 94, 214);
+          color: white;
+          margin-right: 5px;
+          padding-left: 8px;
+          padding-top: 5px;
+          padding-right: 8px;
+          padding-bottom: 5px;
+          border-radius: 5px;
+          border: none;
+        }
+
+        .message-button{
+          background-color: rgb(243, 243, 243);
+          font-weight: bold;
+          padding-top: 5px;
+          padding-left: 8px;
+          padding-bottom: 5px;
+          padding-right: 8px;
+          border-radius: 5px;
+          border: none;
+
+        }
+
+
+    </style>
+  </head>
+  <body style="height: 3000px;">
+    <div class="header">
+
+      <div class="profile">
+        <div class="profile-picture">
+          <img class="image" src="images/profile-2.jpg" alt="">
+        </div>
+        <div class="Name">
+          Oliver Cat
+        </div>
+      </div>
+
+      <div class="friends">
+        <div class="add-friends">
+          <button class="add-friends-button">Add Friend</button>
+        </div>
+        <div class="message">
+          <button class="message-button">Message</button>
+        </div>
+      </div>
+
+    </div>
+  </body>
+</html>

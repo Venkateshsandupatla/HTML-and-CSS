@@ -1,0 +1,41 @@
+.image{
+  width: 50px;
+  height: 50px;
+  border-radius: 100px;
+  object-fit: cover ;
+  object-position: center;
+  vertical-align: middle;
+  margin-right: 5px;
+
+}
+.text{
+  vertical-align: middle;
+  border: none;
+  width: 280px;
+  font-size: 16px;
+
+}
+.button{
+  background-color: rgb(29, 155, 240);
+  border: none;
+  color: white;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 18px;
+  padding-right: 18px;
+  border-radius: 20px;
+  font-weight: bold;
+  vertical-align: middle;
+}
+.card{
+  display: inline-block;
+  border-width: 2px;
+  border-style: solid;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 12px;
+  padding-right: 12px;
+  box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.3);
+  border: none;
+  border-radius: 5px;
+}

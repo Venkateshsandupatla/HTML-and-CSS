@@ -1,0 +1,12 @@
+.search{
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 15px;
+  padding-right: 15px;
+  width: 400px;
+  border: none;
+  border-radius: 14px;
+  box-shadow: 2px 2px 5px black;
+  color: rgb(171, 168, 168);
+  
+}

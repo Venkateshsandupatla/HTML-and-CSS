@@ -1,0 +1,91 @@
+.grid{
+  display: grid;
+  grid-template-columns: 200px 200px 200px;
+  column-gap: 20px;
+}
+.image{
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  object-position: center;
+  margin-bottom: 5px;
+  cursor: pointer;
+ 
+
+}
+.name{
+  margin-top: 0px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 14px;
+  margin-bottom: 5px;
+  margin-left: 8px;
+}
+.friends{
+  margin-top: 0px;
+  color: grey;
+  font-size: 15px;
+  margin-bottom: 7px;
+  margin-left: 8px;
+  display: inline-block;
+  vertical-align: middle;
+}
+.friends-button{
+  margin-top: 0px;
+  background-color: rgb(16, 75, 238);
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border: none;
+  border-radius: 5px;
+  margin-left: 8px;
+  cursor: pointer;
+  transition: opacity 0.15s;
+  margin-bottom: 10px;
+
+}
+.friends-button:hover{
+  opacity: 0.7;
+}
+.friends-button:active{
+  opacity: 0.3;
+}
+
+.profile{
+  width: 200px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+  display: inline-block;
+  vertical-align: top;
+  margin-right: 15px;
+}
+  /* width: 200px;
+  display: inline-block;
+  border: none;
+  box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.3);
+  padding-bottom: 10px;
+  border-radius: 5px;
+  margin-right: 5px;
+} */
+.mutual-friend-row{
+  margin-left: 8px;
+  margin-bottom: 10px;
+  display: grid;
+  grid-template-columns: 26px 1fr;
+  align-items: center;
+
+}
+.mutual-friend-image{
+  height: 28px;
+  width: 28px;
+  object-fit: cover;
+  border-radius: 14px;
+  vertical-align: middle;
+  margin-right: 4px;
+
+}
+
+
+
